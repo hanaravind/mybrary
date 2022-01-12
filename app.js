@@ -30,6 +30,6 @@ db.on('error', error => console.log(error))
 db.once('open', () => console.log('connected'))
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('server listening on ', port)
 })
